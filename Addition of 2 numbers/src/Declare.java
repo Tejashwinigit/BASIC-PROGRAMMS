@@ -1,13 +1,15 @@
 
+import java.io.*;
 public class Declare {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
+		int a,b,c;
+		BufferedReader br=new BufferedReader(new inputStreamReader(system.in));
 		System.out.println("Enter two numbers");
-		int first= 10;
-		int second =20;
-		System.out.println(first +""+ second);
-		int sum = first+second;
-		System.out.println("the sum is :"+sum);
+		int a=Double.parseDouble(br.readLine());
+		int b=Double.parseDouble(br.readLine());
+		c=A+b;
+				System.out.println("sum"+c);
 		
 
 	}
